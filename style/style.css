@@ -1,0 +1,141 @@
+body {
+  font-size: 16px;
+  color: white;
+}
+button {
+  border: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+h2, h3 {
+  color: black;
+  text-transform: uppercase;
+}
+h2 {
+  display: inline-block;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 3rem;
+}
+h3 {
+  padding: 2rem 0;
+}
+p {
+  font-size: 2rem;
+}
+.navbar {
+  background-color: rgba(0,0,0,.6);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+.navbar__links {
+  list-style-type: none;
+}
+.navbar__item {
+  float: left;
+  padding: 12px 0;
+}
+.navbar__item a {
+  transition: .5s ease-in-out;
+  color: white;
+  padding: 20px 8px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.navbar__item a:hover {
+  color: rgba(0,225,0,.6);
+}
+.banner {
+  background: url(../resource/1.jpg) no-repeat center / cover;
+  padding: 25rem 40rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.banner h1 {
+  text-transform: uppercase;
+  font-size: 5rem;
+}
+.banner__info {
+  padding: 2rem 0 4rem;
+}
+.startButton {
+  background-color: #32A865;
+  color: rgba(255,255,255,.6);
+}
+.startButton:hover {
+  transition: .5s ease-in-out;
+  background-color: rgba(50,168,101,.3);
+}
+.moreButton {
+  background-color: rgba(255,255,255,.2);
+  border: 1px solid rgba(255,255,255,.6);
+  color: rgba(255,255,255,.6);
+}
+.moreButton:hover {
+  transition: .5s ease-in-out;
+  color: rgba(255,255,255,.2);
+  border: 1px solid rgba(255,255,255,.2);
+}
+.service {
+  padding: 2rem;
+  color: #9F9F9F;
+}
+.logs {
+  margin: 0 28%;
+  text-align: center;
+  width: 10rem;
+  height: 10rem;
+  padding-top: 2.5rem;
+  color: #fff;
+  background-color: #2BA560;
+  border-radius: 50%;
+}
+.logs:hover {
+  transition: 0.5s ease-in-out;
+  border: 1px solid #2BA560;
+  color: #2BA560;
+  background-color: #fff;
+}
+.service_info {
+  padding-top: 10rem;
+  text-align: center;
+}
+.lables {
+  background-color: #F8F8F8;
+  text-align: left;
+  padding-left: 18rem;
+}
+.lables {
+  color: #E9E9E9;
+}
+.lables h3 {
+  color: #E9E9E9;
+}
+.lables__items {
+  list-style-type: none;
+}
+.lables__link {
+  font-size: 4rem;
+  padding: 4rem 2rem;
+  float: left;
+}
+.lables__link a:hover {
+  transition: .5s ease-in-out;
+  opacity: .5;
+}
+.rabit {
+  border-bottom-right-radius: 30px;
+}
+.skills {
+  color: #8F8F8F;
+  padding: 0;
+}
+.skills h3 {
+  color: #AFAFAF;
+  padding-top: 0;
+}
+.skills__list {
+  list-style-image: url(../resource/110800-elegant-font/png/check-sign-1.png);
+}
